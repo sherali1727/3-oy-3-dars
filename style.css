@@ -1,0 +1,258 @@
+.container{
+width: 1110px;
+flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.navbar{
+    display: flex;
+}
+
+body{
+    background-image: url(images/placeholder.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: -45px;
+    background-color: #120304;
+    margin-bottom: 40px;
+}
+
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_li{
+    text-decoration: none;
+    padding-right: 36px;
+    color: #FFF;
+font-family: Helvetica ;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 90px;
+    
+}
+
+.nav_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_logo{
+    padding-right: 8px;
+}
+
+.nav_li:hover{
+    color: #34C759;
+    font-family: Helvetica;
+}
+
+hr{
+    width: 1440px;
+height: 2px;
+flex-shrink: 0;
+fill: #FFF;
+opacity: 0.1;
+}
+
+.body1{
+    align-items: center;
+    text-align: center;
+}
+
+.body1_h1{
+    width: 1100px;
+height: 163px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Helvetica;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 7.2px;
+text-transform: capitalize;
+}
+
+.body1_p{
+    width: 595px;
+color: #FFF;
+text-align: center;
+font-family: Helvetica ;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+letter-spacing: -0.2px;
+opacity: 0.7;
+margin-left: 247px;
+margin-top: -74px;
+}
+.body1_button{
+    width: 220px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 43px;
+background: #34C759;
+color: var(--Black, #1A1A1A);
+text-align: center;
+font-family: Helvetica ;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.6px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+}
+
+.ulli{
+    width: 215px;
+color: #FFF;
+text-align: center;
+font-family: Helvetica ;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+list-style: none;
+text-decoration: none;
+}
+.ulli2{
+    display: flex;
+width: 122px;
+height: 24px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Helvetica ;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; 
+opacity: 0.5;
+list-style: none;
+text-decoration: none;
+margin-left: 20px;
+}
+
+.body1_ul{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.times{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.body2_container{
+    border-radius: 6px;
+background: #252525;
+box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+margin-top: 164px;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding-top: 85px;
+padding-bottom: 90px;
+}
+
+.body2_ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.body2_li{
+    text-decoration:none ;
+}
+
+.body2h1{
+    color: #303030;
+font-family: Helvetica ;
+font-size: 100px;
+font-style: normal;
+font-weight: 900;
+line-height: 150px; 
+letter-spacing: 20px;
+margin-top: 85px;
+}
+
+.body2h2{
+    margin-top: -184px;
+    color: #D9D9D9;
+font-family: Helvetica ;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 6px;
+}
+
+.body2p{
+    color: #A6A6A6;
+text-align: center;
+font-family: Helvetica ;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-left: 185px; 
+margin-right: 191px;
+margin-top: 61px;
+}
+
+.boxes{
+    margin-top: 90px; margin-bottom: 90px;
+}
+
+.body3h1{
+    color: #303030;
+text-align: center;
+font-family: Helvetica ;
+font-size: 100px;
+font-style: normal;
+font-weight: 900;
+line-height: 150px; /* 150% */
+letter-spacing: 20px;
+}
+
+.body3h3{
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica ;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px;
+letter-spacing: 7.2px;
+text-transform: capitalize;
+margin-top: -200px;
+}
+
+.body3hr{
+    width: 60px;
+height: 2px;
+flex-shrink: 0;
+background: #34C759;
+
+}
